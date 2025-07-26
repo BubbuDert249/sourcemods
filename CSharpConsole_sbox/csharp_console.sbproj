@@ -1,0 +1,19 @@
+<Project Sdk="Sandbox.Sdk/0.1.0">
+
+  <PropertyGroup>
+    <Title>C# Console</Title>
+    <Author>BubbuDert</Author>
+    <Description>A C# console GUI that runs C# commands.</Description>
+    <Version>1.0.0</Version>
+    <Type>addon</Type>
+    <EntryPoint>code/CSharpConsole.cs</EntryPoint> <!-- your main server script -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- List your source files here -->
+    <Compile Include="code\CSharpConsoleClient.cs" />
+    <Compile Include="code\CSharpConsole.cs" />
+    <!-- Add more files as needed -->
+  </ItemGroup>
+
+</Project>
