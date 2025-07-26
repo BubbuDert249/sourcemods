@@ -11,7 +11,7 @@ namespace CSharpConsoleAddon
 
         public CSharpConsoleClient()
         {
-            StyleSheet.Load("/csharp_console/ui/scss/CSharpConsole.scss");
+            StyleSheet.Load("/CSharpConsole_sbox/ui/scss/CSharpConsole.scss");
             // Bind key H to toggle the console
             Input.RegisterButton( "ToggleCSharpConsole", InputButton.Down );
 
