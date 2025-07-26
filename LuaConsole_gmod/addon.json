@@ -1,0 +1,15 @@
+{
+  "title": "Lua Console",
+  "type": "client",
+  "tags": ["debug", "utility"],
+  "ignore": [],
+  "dependencies": [],
+  "content": [
+    "lua/autorun/lua_console_init.lua",
+    "lua/console/cl_console.lua",
+    "lua/console/sv_eval.lua"
+  ],
+  "author": "BubbuDert",
+  "version": "1.0.0",
+  "description": "A Lua console which runs live Lua Commands"
+}
